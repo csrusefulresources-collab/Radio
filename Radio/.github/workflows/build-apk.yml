@@ -1,0 +1,40 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+
+      # IMPORTANT: pin Gradle 8.9. The runner's default Gradle (9.x) breaks this Android Gradle Plugin.
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.9"
+
+      - name: Locate project folder (works even if uploaded inside a sub-folder)
+        id: loc
+        run: |
+          f=$(find . -name settings.gradle.kts -not -path "*/node_modules/*" | head -n 1)
+          echo "dir=$(dirname "$f")" >> "$GITHUB_OUTPUT"
+
+      - name: Build debug APK
+        working-directory: ${{ steps.loc.outputs.dir }}
+        run: gradle assembleDebug --stacktrace --no-daemon
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Radio-APK
+          path: ${{ steps.loc.outputs.dir }}/app/build/outputs/apk/debug/*.apk

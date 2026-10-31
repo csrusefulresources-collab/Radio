@@ -1,0 +1,6 @@
+[
+  { "name": "Radio Paradise",      "frequency": "", "band": "FM", "url": "https://stream.radioparadise.com/mp3-128" },
+  { "name": "SomaFM Groove Salad", "frequency": "", "band": "FM", "url": "https://ice1.somafm.com/groovesalad-128-mp3" },
+  { "name": "BBC World Service",   "frequency": "", "band": "SW", "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
+  { "name": "NPR News",            "frequency": "", "band": "MW", "url": "https://npr-ice.streamguys1.com/live.mp3" }
+]

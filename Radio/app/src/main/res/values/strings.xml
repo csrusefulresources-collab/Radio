@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Radio</string>
+    <string name="title">Radio</string>
+    <string name="band_fm">FM</string>
+    <string name="band_mw">Medium Wave (MW)</string>
+    <string name="band_sw">Short Wave (SW)</string>
+    <string name="unit_mhz">MHz</string>
+    <string name="unit_khz">kHz</string>
+    <string name="btn_prev">Previous channel</string>
+    <string name="btn_next">Next channel</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_band_fmt">Band: %1$s (tap to change)</string>
+    <string name="cd_band">Current band: %1$s. Double tap to switch to %2$s.</string>
+    <string name="btn_scan">Scan channels</string>
+    <string name="btn_scan_stop">Stop scanning</string>
+    <string name="btn_speaker_on">Speaker: On</string>
+    <string name="btn_speaker_off">Speaker: Off</string>
+    <string name="btn_stations">Station list</string>
+    <string name="btn_device_fm">Open this phone\'s built-in FM app</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_scanning">Scanning channels…</string>
+    <string name="status_error">Cannot play this station. Try the next one.</string>
+    <string name="status_empty">No stations in this band</string>
+    <string name="station_list_title">Choose a station</string>
+    <string name="notif_channel">Radio playback</string>
+    <string name="note_streaming">Stations play over the internet. Use “Add station” to add your own stream links.</string>
+    <string name="btn_add">Add station</string>
+    <string name="btn_remove">Remove this station</string>
+    <string name="btn_sleep_off">Sleep timer: Off</string>
+    <string name="btn_sleep_fmt">Sleep timer: %1$d min</string>
+    <string name="add_title">Add station to %1$s</string>
+    <string name="hint_name">Station name</string>
+    <string name="hint_freq">Frequency (optional)</string>
+    <string name="hint_url">Stream link (https://…)</string>
+    <string name="add_error_url">Enter a valid stream link starting with http:// or https://</string>
+    <string name="remove_confirm">Remove %1$s?</string>
+</resources>

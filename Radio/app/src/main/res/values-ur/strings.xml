@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ریڈیو</string>
+    <string name="title">ریڈیو</string>
+    <string name="band_fm">ایف ایم</string>
+    <string name="band_mw">میڈیم ویو (ایم ڈبلیو)</string>
+    <string name="band_sw">شارٹ ویو (ایس ڈبلیو)</string>
+    <string name="unit_mhz">میگا ہرٹز</string>
+    <string name="unit_khz">کلو ہرٹز</string>
+    <string name="btn_prev">پچھلا چینل</string>
+    <string name="btn_next">اگلا چینل</string>
+    <string name="btn_play">چلائیں</string>
+    <string name="btn_pause">روکیں</string>
+    <string name="btn_close">بند کریں</string>
+    <string name="btn_band_fmt">بینڈ: %1$s (تبدیل کرنے کے لیے ٹیپ کریں)</string>
+    <string name="cd_band">موجودہ بینڈ: %1$s۔ %2$s پر جانے کے لیے دو بار ٹیپ کریں۔</string>
+    <string name="btn_scan">چینلز اسکین کریں</string>
+    <string name="btn_scan_stop">اسکین بند کریں</string>
+    <string name="btn_speaker_on">اسپیکر: آن</string>
+    <string name="btn_speaker_off">اسپیکر: آف</string>
+    <string name="btn_stations">اسٹیشنز کی فہرست</string>
+    <string name="btn_device_fm">اس فون کی اپنی ایف ایم ایپ کھولیں</string>
+    <string name="status_playing">چل رہا ہے</string>
+    <string name="status_loading">لوڈ ہو رہا ہے…</string>
+    <string name="status_stopped">رکا ہوا ہے</string>
+    <string name="status_scanning">چینلز اسکین ہو رہے ہیں…</string>
+    <string name="status_error">یہ اسٹیشن نہیں چل سکا۔ اگلا چینل آزمائیں۔</string>
+    <string name="status_empty">اس بینڈ میں کوئی اسٹیشن نہیں</string>
+    <string name="station_list_title">اسٹیشن منتخب کریں</string>
+    <string name="notif_channel">ریڈیو پلے بیک</string>
+    <string name="note_streaming">اسٹیشنز انٹرنیٹ پر چلتے ہیں۔ اپنے اسٹریم لنک شامل کرنے کے لیے «اسٹیشن شامل کریں» دبائیں۔</string>
+    <string name="btn_add">اسٹیشن شامل کریں</string>
+    <string name="btn_remove">یہ اسٹیشن ہٹائیں</string>
+    <string name="btn_sleep_off">سلیپ ٹائمر: بند</string>
+    <string name="btn_sleep_fmt">سلیپ ٹائمر: %1$d منٹ</string>
+    <string name="add_title">%1$s میں اسٹیشن شامل کریں</string>
+    <string name="hint_name">اسٹیشن کا نام</string>
+    <string name="hint_freq">فریکوئنسی (اختیاری)</string>
+    <string name="hint_url">اسٹریم لنک (https://…)</string>
+    <string name="add_error_url">ایسا اسٹریم لنک لکھیں جو http:// یا https:// سے شروع ہو</string>
+    <string name="remove_confirm">%1$s ہٹائیں؟</string>
+</resources>
